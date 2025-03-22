@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>United States</title>
+  <link rel="stylesheet" href="styles/place.css" />
+  <script src="scripts/place.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Welcome to the United States</h1>
+  </header>
+
+  <main>
+    <section class="hero">
+      <picture>
+        <source srcset="images/usa-hero-large.jpg" media="(min-width: 768px)" />
+        <img src="images/usa-hero-small.jpg" alt="Scenic view of the United States" />
+      </picture>
+    </section>
+
+    <section class="data">
+      <h2>Country Information</h2>
+      <p>Capital: Washington, D.C.</p>
+      <p>Population: 331 million</p>
+      <p>Language: English</p>
+    </section>
+
+    <section class="weather">
+      <h2>Weather <span class="icon" aria-hidden="true"></span></h2>
+      <p>Temperature: <span id="temperature">40</span> °F</p>
+      <p>Wind Speed: <span id="windspeed">10</span> mph</p>
+      <p>Wind Chill: <span id="windchill">Calculating...</span></p>
+      <img src="images/weather-icon.svg" alt="Weather icon" class="weather-icon" />
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentyear"></span> | Last Modified: <span id="lastmodified"></span></p>
+  </footer>
+</body>
+</html>
