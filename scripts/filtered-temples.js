@@ -3,46 +3,46 @@ document.getElementById("lastModified").textContent = document.lastModified;
 
 const temples = [
     {
-      name: "Salt Lake Temple",
-      location: "Salt Lake City, Utah",
-      dedicated: "April 6, 1893",
-      area: 253015,
-      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-31890.jpg"
+      name: "Teton River Temple",
+      location: "Rexburg, Idaho",
+      dedicated: "Not yet dedicated",
+      area: 100000,
+      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/teton-river-idaho-temple/teton-river-idaho-temple-45310.jpg"
     },
     {
-      name: "Laie Hawaii Temple",
-      location: "Laie, Hawaii",
-      dedicated: "November 27, 1919",
-      area: 42320,
-      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/laie-hawaii-temple/laie-hawaii-temple-29905.jpg"
+      name: "Gilbert Temple",
+      location: "Gilbert, Arizona",
+      dedicated: "March 2, 2014",
+      area: 85326,
+      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/gilbert-arizona-temple/gilbert-arizona-temple-3802-main.jpg"
     },
     {
-      name: "Tucson Arizona Temple",
+      name: "Tucson Temple",
       location: "Tucson, Arizona",
       dedicated: "August 13, 2017",
-      area: 38600,
-      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/tucson-arizona-temple/tucson-arizona-temple-35871.jpg"
+      area: 38700,
+      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/tucson-arizona-temple/tucson-arizona-temple-8384-main.jpg"
     },
     {
-      name: "Rome Italy Temple",
-      location: "Rome, Italy",
-      dedicated: "March 10, 2019",
-      area: 41010,
-      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-31950.jpg"
+      name: "Mount Timpanogos Temple",
+      location: "American Fork, Utah",
+      dedicated: "October 13, 1996",
+      area: 107240,
+      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/mount-timpanogos-utah-temple/mount-timpanogos-utah-temple-36979-main.jpg"
     },
     {
-      name: "Paris France Temple",
-      location: "Le Chesnay, France",
-      dedicated: "May 21, 2017",
-      area: 44000,
-      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/paris-france-temple/paris-france-temple-28584.jpg"
+      name: "The Gila Valley Temple",
+      location: "Thatcher, Arizona",
+      dedicated: "May 23, 2010",
+      area: 18700,
+      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/the-gila-valley-arizona-temple/the-gila-valley-arizona-temple-12777-main.jpg"
     },
     {
-      name: "Hong Kong China Temple",
-      location: "Hong Kong, China",
-      dedicated: "May 26, 1996",
-      area: 21600,
-      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/hong-kong-china-temple/hong-kong-china-temple-31262.jpg"
+      name: "Mesa Temple",
+      location: "Mesa, Arizona",
+      dedicated: "October 23, 1927",
+      area: 113916,
+      imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/mesa-arizona-temple/mesa-arizona-temple-46561-main.jpg"
     }
   ];
   
