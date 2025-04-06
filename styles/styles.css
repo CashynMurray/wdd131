@@ -1,0 +1,184 @@
+body { 
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="text"], input[type="date"] {
+    max-width: 250px; 
+    margin: 0;
+    display: block;
+    text-align: left; 
+}
+
+form input[type="text"],
+form input[type="date"] {
+    width: auto; 
+    margin-bottom: 15px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.rating {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 15px;
+}
+
+.star-container {
+    display: inline-flex;
+}
+
+input[type="radio"] {
+    display: none; 
+}
+
+.star {
+    font-size: 2em;
+    color: #ccc; 
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+input[type="radio"]:checked + label.star {
+    color: #ffcc00; 
+}
+
+input[type="radio"]:hover + label.star {
+    color: #ffcc00;
+}
+
+input[type="radio"]:checked ~ label.star {
+    color: #ffcc00; 
+}
+
+.star {
+    font-size: 2em;
+    color: #ccc; 
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+input[type="radio"]:checked + label.star {
+    color: #ffcc00; 
+}
+
+
+input[type="radio"]:hover + label.star {
+    color: #ffcc00;
+}
+
+input[type="radio"]:checked ~ label.star {
+    color: #ffcc00; 
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 100px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-bottom: 15px;
+}
+
+.features input[type="checkbox"] {
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
+
+.features label {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-left: 5px; 
+}
+
+input[type="submit"] {
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #01579b;
+}
+
+footer {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 15px;
+    }
+
+    input, select, textarea {
+        padding: 8px;
+    }
+
+    textarea {
+        max-width: 100%;
+    }
+
+    .features {
+        align-items: flex-start;
+    }
+
+    .rating {
+        justify-content: center;
+    }
+}
+
+
+
+
